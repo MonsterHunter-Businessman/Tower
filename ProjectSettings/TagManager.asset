@@ -7,8 +7,11 @@ TagManager:
   - Road
   - Tower
   - Object_Smash
-  - Monster_spawn
   - Wall
+  - End
+  - Start
+  - END
+  - Monster
   layers:
   - Default
   - TransparentFX
