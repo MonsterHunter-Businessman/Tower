@@ -19,8 +19,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Pl
+  - Wand
   - 
   - 
   - 
@@ -45,4 +45,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Pl
+    uniqueID: 3888754389
+    locked: 0
+  - name: Wand
+    uniqueID: 667581259
     locked: 0
