@@ -9,6 +9,7 @@ TagManager:
   - Object_Smash
   - Monster_spawn
   - Wall
+  - DropArea
   layers:
   - Default
   - TransparentFX

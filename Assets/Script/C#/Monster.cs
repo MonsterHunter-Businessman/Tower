@@ -40,7 +40,7 @@ public class Monster : MonoBehaviour
         {
             Destroy(gameObject);
         }
-            
+
     }
 
 }
