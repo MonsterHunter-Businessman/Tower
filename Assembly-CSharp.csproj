@@ -56,12 +56,11 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\C#\Player.cs" />
-    <Compile Include="Assets\Script\C#\SimplePlayerController.cs" />
-    <Compile Include="Assets\Script\C#\DgarDrop.cs" />
-    <Compile Include="Assets\Script\C#\WizDemo1.cs" />
     <Compile Include="Assets\Script\C#\GameManager.cs" />
     <Compile Include="Assets\Script\C#\Monster.cs" />
+    <Compile Include="Assets\Script\C#\Player.cs" />
+    <Compile Include="Assets\Script\C#\SimplePlayerController.cs" />
+    <Compile Include="Assets\Script\C#\WizDemo1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Text\TextMesh Pro\Shaders\TMPro.cginc" />

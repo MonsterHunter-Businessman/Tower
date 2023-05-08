@@ -2,30 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
 
     Vector2 targetPostion;
+
+    public Vector3 mPosition;
     void Update()
     {
-        Vector3 mPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition); // 마우스 좌표 저장
+        mPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition); // 마우스 좌표 저장
 
-        if (Input.GetMouseButton(0))
-        {
-            gameObject.transform.position = new Vector2(mPosition.x, mPosition.y);
-        }
+    }
 
-        if(Input.GetMouseButtonUp(0))
-        {
-            transform.position = targetPostion;
-        }
+    void OnMouseDrag()
+    {
+        gameObject.transform.position = new Vector2(mPosition.x, mPosition.y);
+    }
+
+    void OnMouseUp()
+    {
+        transform.position = targetPostion;
+        
     }
 
     void OnTriggerStay2D(Collider2D col)
     {
-        if (col.gameObject.tag == "DropArea" && col.gameObject.tag == "Tower") {
+        if (col.gameObject.tag == "DropArea") {
             targetPostion = col.transform.position;
+            //Debug.Log("충돌");
         } 
         else
         {
