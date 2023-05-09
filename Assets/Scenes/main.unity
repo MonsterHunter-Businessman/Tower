@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 4072434}
   - component: {fileID: 4072435}
   m_Layer: 0
-  m_Name: Square (61)
+  m_Name: W30
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218,8 +218,8 @@ GameObject:
   - component: {fileID: 8070649}
   - component: {fileID: 8070650}
   m_Layer: 0
-  m_Name: Square (31)
-  m_TagString: Monster_spawn
+  m_Name: MS1
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 13730175}
   - component: {fileID: 13730176}
   m_Layer: 0
-  m_Name: Square (14)
+  m_Name: R15
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -386,8 +386,8 @@ GameObject:
   - component: {fileID: 34010153}
   - component: {fileID: 34010154}
   m_Layer: 0
-  m_Name: Square (34)
-  m_TagString: Tower
+  m_Name: D6
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -470,7 +470,7 @@ GameObject:
   - component: {fileID: 45338399}
   - component: {fileID: 45338400}
   m_Layer: 0
-  m_Name: Square (8)
+  m_Name: R9
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -554,7 +554,7 @@ GameObject:
   - component: {fileID: 57882439}
   - component: {fileID: 57882440}
   m_Layer: 0
-  m_Name: Square (63)
+  m_Name: W32
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,8 +638,8 @@ GameObject:
   - component: {fileID: 61096369}
   - component: {fileID: 61096370}
   m_Layer: 0
-  m_Name: Square (32)
-  m_TagString: Monster_spawn
+  m_Name: MS2
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -722,7 +722,7 @@ GameObject:
   - component: {fileID: 62770097}
   - component: {fileID: 62770098}
   m_Layer: 0
-  m_Name: Square (28)
+  m_Name: R27
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -806,7 +806,7 @@ GameObject:
   - component: {fileID: 71805882}
   - component: {fileID: 71805883}
   m_Layer: 0
-  m_Name: Square (43)
+  m_Name: W12
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -890,8 +890,8 @@ GameObject:
   - component: {fileID: 103249013}
   - component: {fileID: 103249014}
   m_Layer: 0
-  m_Name: Square (40)
-  m_TagString: Tower
+  m_Name: D12
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -974,7 +974,7 @@ GameObject:
   - component: {fileID: 103468367}
   - component: {fileID: 103468368}
   m_Layer: 0
-  m_Name: Square (10)
+  m_Name: R11
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1058,7 +1058,7 @@ GameObject:
   - component: {fileID: 104165100}
   - component: {fileID: 104165101}
   m_Layer: 0
-  m_Name: Square (54)
+  m_Name: W23
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1142,8 +1142,8 @@ GameObject:
   - component: {fileID: 110983165}
   - component: {fileID: 110983166}
   m_Layer: 0
-  m_Name: Square (39)
-  m_TagString: Tower
+  m_Name: D11
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1226,7 +1226,7 @@ GameObject:
   - component: {fileID: 111042667}
   - component: {fileID: 111042668}
   m_Layer: 0
-  m_Name: Square (18)
+  m_Name: R18
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1310,7 +1310,7 @@ GameObject:
   - component: {fileID: 122530173}
   - component: {fileID: 122530174}
   m_Layer: 0
-  m_Name: Square (44)
+  m_Name: W13
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1394,7 +1394,7 @@ GameObject:
   - component: {fileID: 172807552}
   - component: {fileID: 172807553}
   m_Layer: 0
-  m_Name: Square (50)
+  m_Name: W19
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1478,7 +1478,7 @@ GameObject:
   - component: {fileID: 184313631}
   - component: {fileID: 184313632}
   m_Layer: 0
-  m_Name: Square (11)
+  m_Name: R12
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1562,7 +1562,7 @@ GameObject:
   - component: {fileID: 186802455}
   - component: {fileID: 186802456}
   m_Layer: 0
-  m_Name: Square (55)
+  m_Name: W24
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1646,7 +1646,7 @@ GameObject:
   - component: {fileID: 215972609}
   - component: {fileID: 215972610}
   m_Layer: 0
-  m_Name: Square (72)
+  m_Name: W41
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1730,7 +1730,7 @@ GameObject:
   - component: {fileID: 254732553}
   - component: {fileID: 254732554}
   m_Layer: 0
-  m_Name: Square (57)
+  m_Name: W26
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1814,8 +1814,8 @@ GameObject:
   - component: {fileID: 266166241}
   - component: {fileID: 266166242}
   m_Layer: 0
-  m_Name: Square (37)
-  m_TagString: Tower
+  m_Name: D9
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1898,7 +1898,7 @@ GameObject:
   - component: {fileID: 270154791}
   - component: {fileID: 270154792}
   m_Layer: 0
-  m_Name: Square (56)
+  m_Name: W25
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2054,7 +2054,7 @@ GameObject:
   - component: {fileID: 285209849}
   - component: {fileID: 285209850}
   m_Layer: 0
-  m_Name: Square (34)
+  m_Name: W3
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2139,8 +2139,8 @@ GameObject:
   - component: {fileID: 304010078}
   - component: {fileID: 304010079}
   m_Layer: 0
-  m_Name: Square (1)
-  m_TagString: Player
+  m_Name: PSm
+  m_TagString: Player_Spawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2152,13 +2152,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304010076}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4533501, y: 0.000000014901161, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.45335007, y: 0, z: 0}
   m_LocalScale: {x: 0.0933, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1969634325}
-  m_RootOrder: 1
+  m_Father: {fileID: 1416515305}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &304010078
 SpriteRenderer:
@@ -2249,7 +2249,7 @@ GameObject:
   - component: {fileID: 335485260}
   - component: {fileID: 335485261}
   m_Layer: 0
-  m_Name: Square (38)
+  m_Name: W7
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2366,7 +2366,7 @@ GameObject:
   - component: {fileID: 454253999}
   - component: {fileID: 454254000}
   m_Layer: 0
-  m_Name: Square (36)
+  m_Name: W5
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2450,7 +2450,7 @@ GameObject:
   - component: {fileID: 455811575}
   - component: {fileID: 455811576}
   m_Layer: 0
-  m_Name: Square (40)
+  m_Name: W9
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2534,7 +2534,7 @@ GameObject:
   - component: {fileID: 480717937}
   - component: {fileID: 480717938}
   m_Layer: 0
-  m_Name: Square (48)
+  m_Name: W17
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2618,7 +2618,7 @@ GameObject:
   - component: {fileID: 535943273}
   - component: {fileID: 535943274}
   m_Layer: 0
-  m_Name: Square
+  m_Name: R1
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2702,7 +2702,7 @@ GameObject:
   - component: {fileID: 579357514}
   - component: {fileID: 579357515}
   m_Layer: 0
-  m_Name: Square (39)
+  m_Name: W8
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2786,7 +2786,7 @@ GameObject:
   - component: {fileID: 581748214}
   - component: {fileID: 581748215}
   m_Layer: 0
-  m_Name: Square (45)
+  m_Name: W14
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2904,7 +2904,7 @@ GameObject:
   - component: {fileID: 603290170}
   - component: {fileID: 603290171}
   m_Layer: 0
-  m_Name: Square (68)
+  m_Name: W37
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2988,7 +2988,7 @@ GameObject:
   - component: {fileID: 638890920}
   - component: {fileID: 638890921}
   m_Layer: 0
-  m_Name: Square (47)
+  m_Name: W16
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3072,7 +3072,7 @@ GameObject:
   - component: {fileID: 665036119}
   - component: {fileID: 665036120}
   m_Layer: 0
-  m_Name: Square (51)
+  m_Name: W20
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3193,8 +3193,8 @@ GameObject:
   - component: {fileID: 674566646}
   - component: {fileID: 674566647}
   m_Layer: 0
-  m_Name: Square (43)
-  m_TagString: Tower
+  m_Name: D15
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3277,7 +3277,7 @@ GameObject:
   - component: {fileID: 692593276}
   - component: {fileID: 692593277}
   m_Layer: 0
-  m_Name: Square (49)
+  m_Name: W18
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3361,7 +3361,7 @@ GameObject:
   - component: {fileID: 693559221}
   - component: {fileID: 693559222}
   m_Layer: 0
-  m_Name: Square (60)
+  m_Name: W29
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3445,8 +3445,8 @@ GameObject:
   - component: {fileID: 703725044}
   - component: {fileID: 703725045}
   m_Layer: 0
-  m_Name: Square (29)
-  m_TagString: Tower
+  m_Name: D1
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3529,7 +3529,7 @@ GameObject:
   - component: {fileID: 753042667}
   - component: {fileID: 753042668}
   m_Layer: 0
-  m_Name: Square (12)
+  m_Name: R13
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3613,7 +3613,7 @@ GameObject:
   - component: {fileID: 753632166}
   - component: {fileID: 753632167}
   m_Layer: 0
-  m_Name: Square (30)
+  m_Name: O1
   m_TagString: Object_Smash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3697,7 +3697,7 @@ GameObject:
   - component: {fileID: 803021626}
   - component: {fileID: 803021627}
   m_Layer: 0
-  m_Name: Square (66)
+  m_Name: W35
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3786,8 +3786,8 @@ GameObject:
   - component: {fileID: 845418172}
   - component: {fileID: 845418173}
   m_Layer: 0
-  m_Name: Square (36)
-  m_TagString: Tower
+  m_Name: D8
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3870,7 +3870,7 @@ GameObject:
   - component: {fileID: 855971040}
   - component: {fileID: 855971041}
   m_Layer: 0
-  m_Name: Square (59)
+  m_Name: W28
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3954,7 +3954,7 @@ GameObject:
   - component: {fileID: 877333246}
   - component: {fileID: 877333247}
   m_Layer: 0
-  m_Name: Square (25)
+  m_Name: R24
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4038,7 +4038,7 @@ GameObject:
   - component: {fileID: 897616068}
   - component: {fileID: 897616069}
   m_Layer: 0
-  m_Name: Square (42)
+  m_Name: W11
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4206,7 +4206,7 @@ GameObject:
   - component: {fileID: 986634618}
   - component: {fileID: 986634619}
   m_Layer: 0
-  m_Name: Square (9)
+  m_Name: R10
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4290,7 +4290,7 @@ GameObject:
   - component: {fileID: 999193666}
   - component: {fileID: 999193667}
   m_Layer: 0
-  m_Name: Square (6)
+  m_Name: R7
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4374,7 +4374,7 @@ GameObject:
   - component: {fileID: 1012130334}
   - component: {fileID: 1012130335}
   m_Layer: 0
-  m_Name: Square (2)
+  m_Name: R3
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4458,7 +4458,7 @@ GameObject:
   - component: {fileID: 1017966888}
   - component: {fileID: 1017966889}
   m_Layer: 0
-  m_Name: Square (21)
+  m_Name: R21
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4542,7 +4542,7 @@ GameObject:
   - component: {fileID: 1019881447}
   - component: {fileID: 1019881448}
   m_Layer: 0
-  m_Name: Square (19)
+  m_Name: R19
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4626,7 +4626,7 @@ GameObject:
   - component: {fileID: 1066490212}
   - component: {fileID: 1066490213}
   m_Layer: 0
-  m_Name: Square (52)
+  m_Name: W21
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4710,8 +4710,8 @@ GameObject:
   - component: {fileID: 1117080392}
   - component: {fileID: 1117080393}
   m_Layer: 0
-  m_Name: Square (30)
-  m_TagString: Tower
+  m_Name: D2
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4794,7 +4794,7 @@ GameObject:
   - component: {fileID: 1148456425}
   - component: {fileID: 1148456426}
   m_Layer: 0
-  m_Name: Square (70)
+  m_Name: W39
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4878,8 +4878,8 @@ GameObject:
   - component: {fileID: 1151548004}
   - component: {fileID: 1151548005}
   m_Layer: 0
-  m_Name: Square (38)
-  m_TagString: Tower
+  m_Name: D10
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4962,7 +4962,7 @@ GameObject:
   - component: {fileID: 1165039867}
   - component: {fileID: 1165039868}
   m_Layer: 0
-  m_Name: Square (62)
+  m_Name: W31
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5051,7 +5051,7 @@ GameObject:
   - component: {fileID: 1243577656}
   - component: {fileID: 1243577657}
   m_Layer: 0
-  m_Name: Square (46)
+  m_Name: W15
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5167,7 +5167,7 @@ GameObject:
   - component: {fileID: 1268940009}
   - component: {fileID: 1268940010}
   m_Layer: 0
-  m_Name: Square (67)
+  m_Name: W36
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5251,7 +5251,7 @@ GameObject:
   - component: {fileID: 1302466839}
   - component: {fileID: 1302466840}
   m_Layer: 0
-  m_Name: Square (26)
+  m_Name: R25
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5382,7 +5382,7 @@ GameObject:
   - component: {fileID: 1348212910}
   - component: {fileID: 1348212911}
   m_Layer: 0
-  m_Name: Square (20)
+  m_Name: R20
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5466,8 +5466,8 @@ GameObject:
   - component: {fileID: 1379086560}
   - component: {fileID: 1379086561}
   m_Layer: 0
-  m_Name: Square (41)
-  m_TagString: Tower
+  m_Name: D13
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5550,7 +5550,7 @@ GameObject:
   - component: {fileID: 1405274381}
   - component: {fileID: 1405274382}
   m_Layer: 0
-  m_Name: Square (65)
+  m_Name: W34
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5634,7 +5634,7 @@ GameObject:
   - component: {fileID: 1409621187}
   - component: {fileID: 1409621188}
   m_Layer: 0
-  m_Name: Square (69)
+  m_Name: W38
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5719,7 +5719,7 @@ GameObject:
   - component: {fileID: 1416515306}
   - component: {fileID: 1416515307}
   m_Layer: 0
-  m_Name: Square
+  m_Name: PS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5736,7 +5736,8 @@ Transform:
   m_LocalPosition: {x: -1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 304010077}
   m_Father: {fileID: 1969634325}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5971,8 +5972,8 @@ GameObject:
   - component: {fileID: 1479760382}
   - component: {fileID: 1479760383}
   m_Layer: 0
-  m_Name: Square (42)
-  m_TagString: Tower
+  m_Name: D14
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6055,7 +6056,7 @@ GameObject:
   - component: {fileID: 1497806736}
   - component: {fileID: 1497806737}
   m_Layer: 0
-  m_Name: Square (24)
+  m_Name: R23
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6139,7 +6140,7 @@ GameObject:
   - component: {fileID: 1509286904}
   - component: {fileID: 1509286905}
   m_Layer: 0
-  m_Name: Square (37)
+  m_Name: W6
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6223,7 +6224,7 @@ GameObject:
   - component: {fileID: 1533953536}
   - component: {fileID: 1533953537}
   m_Layer: 0
-  m_Name: Square (64)
+  m_Name: W33
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6307,7 +6308,7 @@ GameObject:
   - component: {fileID: 1566612568}
   - component: {fileID: 1566612569}
   m_Layer: 0
-  m_Name: Square (17)
+  m_Name: R17
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6391,8 +6392,8 @@ GameObject:
   - component: {fileID: 1605090717}
   - component: {fileID: 1605090718}
   m_Layer: 0
-  m_Name: Square (35)
-  m_TagString: Tower
+  m_Name: D7
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6475,7 +6476,7 @@ GameObject:
   - component: {fileID: 1633384124}
   - component: {fileID: 1633384125}
   m_Layer: 0
-  m_Name: Square (23)
+  m_Name: R22
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6594,7 +6595,7 @@ GameObject:
   - component: {fileID: 1726175052}
   - component: {fileID: 1726175053}
   m_Layer: 0
-  m_Name: Square (33)
+  m_Name: W2
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6678,7 +6679,7 @@ GameObject:
   - component: {fileID: 1729923093}
   - component: {fileID: 1729923094}
   m_Layer: 0
-  m_Name: Square (32)
+  m_Name: W1
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6762,8 +6763,8 @@ GameObject:
   - component: {fileID: 1740736984}
   - component: {fileID: 1740736985}
   m_Layer: 0
-  m_Name: Square (33)
-  m_TagString: Tower
+  m_Name: D5
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6846,7 +6847,7 @@ GameObject:
   - component: {fileID: 1796248962}
   - component: {fileID: 1796248963}
   m_Layer: 0
-  m_Name: Square (4)
+  m_Name: R5
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6930,7 +6931,7 @@ GameObject:
   - component: {fileID: 1805285364}
   - component: {fileID: 1805285365}
   m_Layer: 0
-  m_Name: Square (27)
+  m_Name: R26
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7014,7 +7015,7 @@ GameObject:
   - component: {fileID: 1805552834}
   - component: {fileID: 1805552835}
   m_Layer: 0
-  m_Name: Square (7)
+  m_Name: R8
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7098,8 +7099,8 @@ GameObject:
   - component: {fileID: 1828132580}
   - component: {fileID: 1828132581}
   m_Layer: 0
-  m_Name: Square (44)
-  m_TagString: Tower
+  m_Name: D16
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7182,7 +7183,7 @@ GameObject:
   - component: {fileID: 1833532967}
   - component: {fileID: 1833532968}
   m_Layer: 0
-  m_Name: Square (16)
+  m_Name: R16
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7266,7 +7267,7 @@ GameObject:
   - component: {fileID: 1889724257}
   - component: {fileID: 1889724258}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: R2
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7350,7 +7351,7 @@ GameObject:
   - component: {fileID: 1900507372}
   - component: {fileID: 1900507373}
   m_Layer: 0
-  m_Name: Square (41)
+  m_Name: W10
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7439,7 +7440,7 @@ GameObject:
   - component: {fileID: 1954014375}
   - component: {fileID: 1954014376}
   m_Layer: 0
-  m_Name: Square (3)
+  m_Name: R4
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7523,7 +7524,7 @@ GameObject:
   - component: {fileID: 1966685247}
   - component: {fileID: 1966685248}
   m_Layer: 0
-  m_Name: Square (13)
+  m_Name: R14
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7607,7 +7608,7 @@ GameObject:
   - component: {fileID: 1968418195}
   - component: {fileID: 1968418196}
   m_Layer: 0
-  m_Name: Square (71)
+  m_Name: W40
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7709,7 +7710,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1416515305}
-  - {fileID: 304010077}
   m_Father: {fileID: 673646797}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7724,8 +7724,8 @@ GameObject:
   - component: {fileID: 1975669315}
   - component: {fileID: 1975669316}
   m_Layer: 0
-  m_Name: Square (32)
-  m_TagString: Tower
+  m_Name: D4
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7808,8 +7808,8 @@ GameObject:
   - component: {fileID: 1996969532}
   - component: {fileID: 1996969533}
   m_Layer: 0
-  m_Name: Square (31)
-  m_TagString: Tower
+  m_Name: D3
+  m_TagString: DropArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7892,7 +7892,7 @@ GameObject:
   - component: {fileID: 2009558873}
   - component: {fileID: 2009558874}
   m_Layer: 0
-  m_Name: Square (5)
+  m_Name: R6
   m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7976,7 +7976,7 @@ GameObject:
   - component: {fileID: 2074189703}
   - component: {fileID: 2074189704}
   m_Layer: 0
-  m_Name: Square (35)
+  m_Name: W4
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8092,7 +8092,7 @@ GameObject:
   - component: {fileID: 2116788621}
   - component: {fileID: 2116788622}
   m_Layer: 0
-  m_Name: Square (53)
+  m_Name: W22
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8181,7 +8181,7 @@ GameObject:
   - component: {fileID: 2130607246}
   - component: {fileID: 2130607247}
   m_Layer: 0
-  m_Name: Square (58)
+  m_Name: W27
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8265,8 +8265,8 @@ GameObject:
   - component: {fileID: 2139162629}
   - component: {fileID: 2139162630}
   m_Layer: 0
-  m_Name: Square (33)
-  m_TagString: Monster_spawn
+  m_Name: MS3
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9303,6 +9303,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a4264d314bee4408ecf0527528b3cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  yeeee: 0
+  mPosition: {x: 0, y: 0, z: 0}
+  range: {fileID: 0}
 --- !u!1 &4150680465212885911
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,9 +7,10 @@ TagManager:
   - Road
   - Tower
   - Object_Smash
-  - Monster_spawn
   - Wall
   - DropArea
+  - Test
+  - Player_Spawn
   layers:
   - Default
   - TransparentFX

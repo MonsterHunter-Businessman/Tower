@@ -5,10 +5,11 @@ using DG.Tweening;
 using UnityEngine.UI;
 using Unity.VisualScripting;
 
-public class Monster : MonoBehaviour
+public class Test_Monster : MonoBehaviour
 {
 
-    public Transform player;
+    public Transform monster;
+
     public PathType pathsystem = PathType.CatmullRom;
     public PathMode pathmode = PathMode.Ignore;
     public int resulution = 10;
@@ -20,6 +21,8 @@ public class Monster : MonoBehaviour
 
     public float lateTime;
 
+    public int health;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,14 +33,32 @@ public class Monster : MonoBehaviour
     void Move()
     {
         gameObject.SetActive(true);
-        player.transform.DOPath(pathval, speed, pathsystem, pathmode, resulution, gizmoColor);
+        monster.transform.DOPath(pathval, speed, pathsystem, pathmode, resulution, gizmoColor);
+    }
+
+    void Update()
+    {
+        //Debug.Log("작동은 하나?");
     }
 
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "Player")
+
+        //Debug.Log("충돌은 하나?");
+
+        if (col.gameObject.tag == "Test")
         {
+            health--;
+        } else if (col.gameObject.tag == "Player_Spawn")
+        {
+            Debug.Log("들어갔당");
+            Destroy(gameObject);
+        }
+
+        if (health <= 0)
+        {
+            Debug.Log("죽었당");
             Destroy(gameObject);
         }
 
