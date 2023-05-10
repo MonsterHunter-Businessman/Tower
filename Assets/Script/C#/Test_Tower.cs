@@ -9,54 +9,63 @@ public class Test_Tower : MonoBehaviour
 
     Vector2 targetPostion;
 
-    public bool yeeee;
+    public bool yes;
     public Vector3 mPosition;
     public GameObject range;
 
 
     BoxCollider2D boxCollider;
-    CircleCollider2D circleCollider;
 
-    void Start()
-    {
-        yeeee = false;
-        GetComponent<CircleCollider2D>().enabled = false;
+    public int health;
+
+    void Start() {
+        yes = false;
     }
 
     
 
-    void Update()
-    {
+    void Update() {
         mPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition); // 마우스 좌표 저장
-
     }
 
-    void OnMouseDrag()
-    {
+    void OnMouseDrag() {
         gameObject.transform.position = new Vector2(mPosition.x, mPosition.y);
     }
 
-    void OnMouseUp()
-    {
+    void OnMouseUp() {
         transform.position = targetPostion;
-        range.SetActive(yeeee);
-        GetComponent<BoxCollider2D>().enabled = !yeeee;
-        GetComponent<CircleCollider2D>().enabled = yeeee;
+        range.SetActive(yes);
+        //GetComponent<BoxCollider2D>().enabled = !yes;
         
     }
 
-    void OnTriggerStay2D(Collider2D col)
-    {
+    void OnTriggerStay2D(Collider2D col) {
         if (col.gameObject.tag == "DropArea") {
             targetPostion = col.transform.position;
-            yeeee = true;
+            targetPostion.y += 0.4f;
+            yes = true;
             //Debug.Log("충돌");
-        } 
-        else
-        {
-            targetPostion = new Vector2(-7, -4);
-            yeeee = false;
+        } else {
+            targetPostion = new Vector2(-14, -7);
+            yes = false;
         }
+    }
+
+    void OnCollisionEnter2D(Collision2D col) {
+
+        //Debug.Log("충돌은 하나?");
+
+        if (col.gameObject.tag == "Test") {
+            Debug.Log("타워가 많이 아퍼ㅓㅓㅓ");
+            health--;
+        }
+
+        if (health <= 0) {
+            Debug.Log("타워 관리 안해?");
+            Debug.Log("진짜 이거임???");
+            Destroy(gameObject);
+        }
+
     }
 }
 

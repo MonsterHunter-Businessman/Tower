@@ -11,6 +11,7 @@ TagManager:
   - DropArea
   - Test
   - Player_Spawn
+  - Test_Monster
   layers:
   - Default
   - TransparentFX

@@ -24,40 +24,33 @@ public class Test_Monster : MonoBehaviour
     public int health;
 
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         gameObject.SetActive(false);
         Invoke("Move", lateTime);
     }
 
-    void Move()
-    {
+    void Move() {
         gameObject.SetActive(true);
         monster.transform.DOPath(pathval, speed, pathsystem, pathmode, resulution, gizmoColor);
     }
 
-    void Update()
-    {
-        //Debug.Log("작동은 하나?");
+    void Update() {
+        Debug.Log("왜 작동함?");
     }
 
 
-    void OnCollisionEnter2D(Collision2D col)
-    {
+    void OnCollisionEnter2D(Collision2D col) {
 
         //Debug.Log("충돌은 하나?");
 
-        if (col.gameObject.tag == "Test")
-        {
+        if (col.gameObject.tag == "Test") {
             health--;
-        } else if (col.gameObject.tag == "Player_Spawn")
-        {
+        } else if (col.gameObject.tag == "Player_Spawn") {
             Debug.Log("들어갔당");
             Destroy(gameObject);
         }
 
-        if (health <= 0)
-        {
+        if (health <= 0) {
             Debug.Log("죽었당");
             Destroy(gameObject);
         }
