@@ -17,7 +17,27 @@ public class Tuttey : MonoBehaviour
 
     public float turnSpeed;
 
+
+
+    Vector2 targetPostion;
+
+    public bool yes;
+    public Vector3 mPosition;
+    public GameObject range;
+
+
+    public int health;
+
+
+
+
+
+
+
     void Start() {
+
+        yes = false;
+
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
 
         Pokemon = EAsports.x;
@@ -46,6 +66,9 @@ public class Tuttey : MonoBehaviour
     }
 
     void Update() {
+
+        mPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition); // 마우스 좌표 저장
+
         if (target == null) {
             return;
         }
@@ -61,4 +84,50 @@ public class Tuttey : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(transform.position, EAsports);
     }
+
+
+    void OnMouseDrag()
+    {
+        gameObject.transform.position = new Vector2(mPosition.x, mPosition.y);
+    }
+
+    void OnMouseUp()
+    {
+        transform.position = targetPostion;
+        range.SetActive(yes);
+        //GetComponent<BoxCollider2D>().enabled = !yes;
+
+    }
+
+    void OnTriggerStay2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "DropArea")
+        {
+            targetPostion = col.transform.position;
+            yes = true;
+            //Debug.Log("충돌");
+        }
+        else
+        {
+            targetPostion = new Vector2(-14, -7);
+            yes = false;
+        }
+
+        if (col.gameObject.tag == "Test")
+        {
+            Debug.Log("타워가 많이 아퍼ㅓㅓㅓ");
+            health--;
+        }
+
+        if (health <= 0)
+        {
+            Debug.Log("타워 관리 안해?");
+            Debug.Log("진짜 이거임???");
+            Destroy(gameObject);
+        }
+
+    }
+
+
+
 }

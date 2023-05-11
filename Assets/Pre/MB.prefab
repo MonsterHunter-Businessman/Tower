@@ -96,22 +96,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 5495350827651927871}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82158229bbb4c3a4ea550396aa92d1bf, type: 3}
+  m_Script: {fileID: 11500000, guid: aae033d2aa31e834b9ee0488eab91824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 5495350827651927870}
-  pathsystem: 0
-  pathmode: 3
+  monster: {fileID: 0}
+  pathsystem: 1
+  pathmode: 0
   resulution: 10
   gizmoColor: {r: 1, g: 0, b: 0, a: 1}
-  pathval:
-  - {x: 3, y: 0, z: 0}
-  - {x: 3, y: -1, z: 0}
-  - {x: 1, y: -1, z: 0}
-  - {x: 1, y: 0, z: 0}
-  - {x: -2, y: 0, z: 0}
-  speed: 30
-  lateTime: 7
+  pathval: []
+  speed: 10
+  lateTime: 0
+  health: 0
 --- !u!58 &5495350827651927864
 CircleCollider2D:
   m_ObjectHideFlags: 0
