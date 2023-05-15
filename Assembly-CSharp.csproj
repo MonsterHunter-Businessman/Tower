@@ -59,10 +59,9 @@
     <Compile Include="Assets\Script\C#\Tuttey.cs" />
     <Compile Include="Assets\Script\C#\GameManager.cs" />
     <Compile Include="Assets\Script\C#\Test_Monster.cs" />
-    <Compile Include="Assets\Script\C#\Test.cs" />
-    <Compile Include="Assets\Script\C#\Test_Tower.cs" />
     <Compile Include="Assets\Script\C#\SimplePlayerController.cs" />
     <Compile Include="Assets\Script\C#\WizDemo1.cs" />
+    <Compile Include="Assets\Script\C#\Test_Tower_Txt.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Text\TextMesh Pro\Shaders\TMPro.cginc" />

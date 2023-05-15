@@ -35,7 +35,7 @@ public class Test_Monster : MonoBehaviour
     }
 
     void Update() {
-        Debug.Log("왜 작동함?");
+        //Debug.Log("왜 작동함?");
     }
 
 

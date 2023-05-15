@@ -9,9 +9,9 @@ TagManager:
   - Object_Smash
   - Wall
   - DropArea
-  - Test
   - Player_Spawn
   - Test_Monster
+  - Test_Arrow
   layers:
   - Default
   - TransparentFX
