@@ -26,6 +26,12 @@ public class Tuttey : MonoBehaviour
     public bool yes;
 
 
+    public float fireRate = 1f;
+    public float fireCountdown = 0f;
+
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+
 
     public GameObject TXT;
 
@@ -61,7 +67,25 @@ public class Tuttey : MonoBehaviour
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
         partToRotate.rotation = Quaternion.Euler(0f, 0f, rotation.z);
+
+
+        if (fireCountdown <= 0f)
+        {
+            Shoot();
+            fireCountdown = 1f / fireRate;
+        }
+        fireCountdown -= Time.deltaTime;
         
+    }
+
+    void Shoot()
+    {
+        //Debug.Log("»§¾ß");
+        GameObject bulletGo =  (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        Bullet bullet = bulletGo.GetComponent<Bullet>();
+
+        if (bullet != null)
+            bullet.Seek(target);
     }
 
     void UpdateTarget()
@@ -109,6 +133,7 @@ public class Tuttey : MonoBehaviour
     {
         if (col.gameObject.tag == "DropArea") {
             targetPostion = col.transform.position;
+            //firePoint = col.transform.position;
             yes = true;
             //Debug.Log("Ãæµ¹");
         } else {
