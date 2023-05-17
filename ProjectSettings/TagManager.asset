@@ -8,10 +8,17 @@ TagManager:
   - Tower
   - Object_Smash
   - Wall
+<<<<<<< HEAD
+  - End
+  - Start
+  - END
+  - Monster
+=======
   - DropArea
   - Player_Spawn
   - Test_Monster
   - Test_Arrow
+>>>>>>> main
   layers:
   - Default
   - TransparentFX
